@@ -51,11 +51,18 @@ void print_ranges(void)
 	/*
 	 * float
 	 */
-
+	printf("\nFLT_MAX: %f\n", FLT_MAX);
+	printf("FLT_MIN: %f\n", FLT_MIN);
 
 	/*
 	 * double
 	 */
+	printf("\nDBL_MAX: %lf\n", DBL_MAX);
+	printf("DBL_MIN: %lf\n", DBL_MIN);
 
-
+	/*
+	 * long double
+	 */
+	printf("\nLDBL_MAX: %llf\n", LDBL_MAX);
+	printf("LDBL_MIN: %llf\n", LDBL_MIN);
 }
